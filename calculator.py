@@ -1,3 +1,6 @@
+#https://github.com/dylanerrigo/lab10-DE-TK.git
+#Partner 1: Dylan Errigo
+#Partner 2: Tristan Kerr
 """
 calculator.py
 - Defines functions used to create a simple calculator
@@ -5,6 +8,13 @@ calculator.py
 One function per operation, in order.
 """
 # First example
+def square_root(a):
+    try:
+        return math.sqrt(a)
+    except:
+        raise ValueError('Argument cannot be less than zero.')
+def hypotenuse(a,b):
+    return math.hypot(a,b)
 def add(a, b): 
     pass
 import math
