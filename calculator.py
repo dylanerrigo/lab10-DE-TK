@@ -8,10 +8,6 @@ One function per operation, in order.
 def add(a, b): 
     pass
 import math
-def div(a,b):
-    if a==0:
-        raise ValueError('Divisor cannot be zero.')
-    return b/a
 def log(a,b):
     if b<=0:
         raise ValueError('Argument/antilogarithm cannot be less than or equal to zero.')
