@@ -14,5 +14,7 @@ def div(a,b):
     return b/a
 def log(a,b):
     if b==0:
-        raise ValueError('Argument/antilogarithm cannot be zero.')
+        raise ValueError('Argument/antilogarithm cannot be zero')
+    if a<=1:
+        raise ValueError('Base cannot be zero.')
     return math.log(b,a)
