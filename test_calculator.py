@@ -49,7 +49,7 @@ class TestCalculator(unittest.TestCase):
                 calculator.log(10, 0)
 
     def test_log_invalid_argument(self): # 1 assertion
-        with self.assertRaise(ValueError):
+        with self.assertRaises(ValueError):
             log(0,5)
         self.assertEqual(log(10,10),1)
 
