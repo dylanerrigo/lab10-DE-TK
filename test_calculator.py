@@ -1,16 +1,11 @@
 #https://github.com/dylanerrigo/lab10-DE-TK.git
 #Partner 1: Dylan Errigo
 #Partner 2: Tristan Kerr
-import unittest
 from calculator import *
-
+import unittest
+import math
+import calculator
 class TestCalculator(unittest.TestCase):
-    import unittest
-    import math
-    import calculator
-
-
-    class TestCalculator(unittest.TestCase):
 
         def test_add(self):
             self.assertEqual(calculator.add(1, 2), 3)
